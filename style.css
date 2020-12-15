@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+}
+.header {
+    background: #3b5998;
+    padding: 13px 0;
+}
+.header::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.container {
+    width: 73%;
+    margin: auto;
+    max-width: 1000px;
+}
+.header-logo {
+    width: 25%;
+    float: left;
+    margin-top: 18px;
+}
+.header-login {
+    width: 75%;
+    float: left;
+    color: #fff;
+    position: relative;
+    top: 6px;
+}
+.header-login form {
+    float: right;
+}
+.password a {
+    color: #eceaea;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 200;
+}
+.password a:hover {
+    text-decoration: underline;
+}
+
+.header-login label,
+.header-login input {
+    display: block;
+}
+.header-login .email,
+.header-login .password,
+.header-login .login {
+    float: left;
+    margin-right: 15px;
+}
+.header-login label {
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+.header-login input[type="text"],
+.header-login input[type="password"] {
+    padding: 3px 5px;
+    border: 1px solid #000;
+    font-size: 13px;
+    font-weight: 300;
+}
+.header-login .login {
+    margin-right: 0;
+    margin-top: 22px;
+}
+.header-login input[type="submit"] {
+    padding: 3px 6px;
+    background: #4267b2;
+    border: 1px solid #29487d;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*****Start Creating area****/
+.creating-area {
+    background: #ebedf0;
+    padding: 30px 0;
+}
+.creat-singup {
+    width: 432px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.h2 {
+    color: #1d2129;
+    font-size: 40px;
+    font-weight: 600;
+}
+.h4 {
+    color: #4b4f56;
+    font-size: 22px;
+    font-family: work-sance;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+.creating-area input[type="text"],
+.creating-area input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 10px;
+    margin: 5px 0px;
+}
+.full-name {
+    overflow: hidden;
+}
+.first-name {
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+}
+.last-name {
+    width: 49%;
+    float: left;
+}
+.h3 {
+    font-size: 20px;
+    color: #90949c;
+    font-weight: bold;
+    font-family: roboto;
+    margin-top: 13px;
+    margin-bottom: 7px;
+}
+.birth-day {
+    overflow: hidden;
+}
+.birth-day select {
+    float: left;
+    padding: 5px 5px;
+    font-size: 13px;
+}
+.gender label {
+    font-size: 18px;
+    color: #1d2129;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+    font-weight: normal;
+}
+.text-box p {
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    padding: 20px 0;
+    font-weight: normal;
+    line-height: 15px;
+}
+.text-box p a {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+.text-box p a:hover {
+    text-decoration: underline;
+}
+.btn input {
+    font-size: 19px;
+    padding: 7px 20px;
+    width: 194px;
+    text-align: center;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: 1px solid #3b6e22;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+/*****End Creating area****/
+
+.footer-area {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.footer-top {
+    border-bottom: 1px solid #dddfe2;
+    padding: 10px 0;
+}
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-area ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+.footer-area ul li a {
+    text-decoration: none;
+}
+.footer-top ul li {
+    padding-right: 10px;
+}
+.footer-top ul li:nth-child(1) a {
+    color: #737373;
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+}
+.footer-top ul li a {
+    color: #385898;
+    cursor: pointer;
+    font-size: 13px;
+}
+.footer-top ul li a:hover {
+    text-decoration: underline;
+}
+.footer-top ul li:nth-child(12) a {
+    border: 1px solid #ccd0d5;
+    padding: 0px 9px;
+    background: #f5f6f7;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.footer-middle {
+    padding: 8px 0;
+}
+.footer-middle ul li {
+    padding-right: 20px;
+}
+.footer-middle ul li a {
+    color: #385898;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.footer-bottom span {
+    font-size: 11px;
+    color: #737373;
+    display: inline-block;
+    margin-top: 15px;
+}
